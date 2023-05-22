@@ -1,0 +1,51 @@
+body{
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+}
+.col-md-6{
+    margin-top: 5rem !important;
+    border: 1px solid black;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+   padding-bottom: 3rem !important;
+}
+h3{
+    padding: 2rem !important;
+    font-size: 35px !important;
+    font-weight: 700 !important;
+}
+.todo{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    margin: 10px !important;
+    width: 60% !important;
+}
+.btn{
+width: 20%;
+height: 40px;
+margin: 10px;
+}
+
+.task{
+    border: 1px solid black;
+    display: block;
+    height: 3rem;
+    margin: 10px;
+}
+.fa-trash-alt{
+    height: 2rem;
+    color:red;
+    margin-top: 25px;
+    padding: 5px;
+}
+.newtodo{
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+li{
+    list-style: none;
+    margin-left: 30px;
+    padding-top: 20px;
+}
